@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Votum.Remotes.Sdk</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Device.Net" Version="4.0.0" />
+    <PackageReference Include="Hid.Net" Version="4.0.0" />
+    <PackageReference Include="protobuf-net" Version="3.0.73" />
+  </ItemGroup>
+
+</Project>
